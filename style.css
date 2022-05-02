@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243,243,243);
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.instagram__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+ }
+
+
+
+.instagram__phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+
+.instagram__continue{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+
+
+}
+
+.group { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 4em;
+    border: 1px solid lightgray;
+    margin-bottom: 5em;
+    
+
+}
+
+.group:nth-child(1){
+    min-width: 19rem;
+ 
+}
+
+.instagram_logo{
+    height: 3rem;
+
+}
+
+.instagram_login {
+    background-color: #2518e0;
+    border-radius: 7px;
+    padding: 1em;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    margin: 2em 0;
+   
+  
+}
+.instagram_logout{
+    color: #2518e0;
+    text-decoration: none;
+    
+
+
+
+}
+
+
+.profilephoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+
+}
+
+.notaccount{
+color: gray;
+}
+
+.link__azul{
+
+    color: #2518e0;
+
+}
+.get__app p{
+    text-align: center;
+    
+
+
+}
+.get__app img{
+    width: 45%;
+}
